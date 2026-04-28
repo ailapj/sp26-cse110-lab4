@@ -1,0 +1,2 @@
+1. The bug in the code is that the type of 'result' is a string instead of a number. Since the data types of num1 and num2 are strings, when the operation + is executed, javascript simply concatentes the two instead of taking their numeric values and performing addition. 
+2. I would fix it by passing num1 and num2 into Number() function so that they are turned into numeric values being adding them. This will ensure that result stores their sum, not their concatenation. 
