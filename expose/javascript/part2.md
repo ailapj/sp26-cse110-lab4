@@ -36,8 +36,8 @@
 17. part2-question16.js
 18. [2, 4, 6] will be the result because inside modifyArray, for each entry of the array, [1, 2, 3], we pass that number to the callback function, in this case, doSomething, which doubles the number. We then pusht the result of this function to newArr which is then returned. Therefore, each entry of the array is doubled and returned in newArr. 
 19. part2-question18.js
-20. 1
-    4
-    3
-    2
+20. 1  
+    4  
+    3  
+    2  
     
