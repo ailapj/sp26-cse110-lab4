@@ -9,33 +9,34 @@
 9. ReferenceError: i is not defined since i is declared as a let in the for-loop and therefore has a scope of just the loop. Since line 11 is outside the loop, i cannot be accessed. 
 10. 3 will be printed since length was declared at the beginning of the function and line 12 is still in the function. 
 11. [50, 100, 150] will be returned since each iteration of the loop calculates the discounted price of each prices entry and pushes it to discounted. However, since the array is only ever returned and not displayed, nothing will be printed to the console.
-12. A. student.name 
-    B. student['Grad Year']
-    C. student.greeting()
-    D. student['Favorite Teacher'].name
-    E. student.courseLoad[0]
-13. A. '32' -> since + triggers string onccatenation and 2 is mapped to its exact string representation
-    B. 1 -> since - trigers numeric conversion and '3' is mapped to its exact numeric representation
-    C. 3 -> null is converted to 0, 3+0 = 3 
-    D. 3null -> string concatenation and null is converted to "null"
-    E. 4 -> true is converted to 1 and 1+3=4 
-    F. 0 -> both false and null converted to 0 and 0+0=0
-    G. 3undefined -> string concatenation and undefined is converted to "undefined"
-    H. NaN -> both converted to numbers but undefined is NaN so 3 - NaN = NaN 
+12.
+    A. student.name  
+    B. student['Grad Year']  
+    C. student.greeting()  
+    D. student['Favorite Teacher'].name  
+    E. student.courseLoad[0]  
+14. A. '32' -> since + triggers string onccatenation and 2 is mapped to its exact string representation  
+    B. 1 -> since - trigers numeric conversion and '3' is mapped to its exact numeric representation  
+    C. 3 -> null is converted to 0, 3+0 = 3  
+    D. 3null -> string concatenation and null is converted to "null"   
+    E. 4 -> true is converted to 1 and 1+3=4   
+    F. 0 -> both false and null converted to 0 and 0+0=0  
+    G. 3undefined -> string concatenation and undefined is converted to "undefined"  
+    H. NaN -> both converted to numbers but undefined is NaN so 3 - NaN = NaN   
 
-14. A. true -> '2' converted to 2 and 2>1 is true 
-    B. false -> both are strings and string comparison is lexicogrpahic and '2' > '1' 
-    C. true -> '2' is converted to 2 and 2==2 is true 
-    D. false -> === checks for both vlue and type and number is not a string 
-    E. false -> true is converted to 1 and 1 is not equal to 2 
-    F. true -> Boolean(2) is true since any non-zero number is true, and true is equal to true. 
+15. A. true -> '2' converted to 2 and 2>1 is true   
+    B. false -> both are strings and string comparison is lexicogrpahic and '2' > '1'    
+    C. true -> '2' is converted to 2 and 2==2 is true  
+    D. false -> === checks for both vlue and type and number is not a string   
+    E. false -> true is converted to 1 and 1 is not equal to 2   
+    F. true -> Boolean(2) is true since any non-zero number is true, and true is equal to true.   
 
-15. == is a loose equality that compares the values after type conversion while === is strict equality and compares both value and data type without any type conversion. 
+16. == is a loose equality that compares the values after type conversion while === is strict equality and compares both value and data type without any type conversion. 
 
-16. part2-question16.js
-17. [2, 4, 6] will be the result because inside modifyArray, for each entry of the array, [1, 2, 3], we pass that number to the callback function, in this case, doSomething, which doubles the number. We then pusht the result of this function to newArr which is then returned. Therefore, each entry of the array is doubled and returned in newArr. 
-18. part2-question18.js
-19. 1
+17. part2-question16.js
+18. [2, 4, 6] will be the result because inside modifyArray, for each entry of the array, [1, 2, 3], we pass that number to the callback function, in this case, doSomething, which doubles the number. We then pusht the result of this function to newArr which is then returned. Therefore, each entry of the array is doubled and returned in newArr. 
+19. part2-question18.js
+20. 1
     4
     3
     2
